@@ -1,0 +1,109 @@
+.tab{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.tablinks {
+    color: #4fa6d5;
+}
+table{
+ width: 100%;
+}
+.row-head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
+}
+a{
+    cursor: pointer;
+}
+
+tr{
+    position: relative;
+    border: 1px solid #888;
+}
+table th{
+    padding: 1.2rem;
+    /* text-align: center; */
+}
+th.mssv{
+    text-align: center;
+}
+td.mssv {
+    text-align: center;
+}
+
+table td{
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    /* text-align: center; */
+    color: black;
+}
+tr::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* min-height: 1px; */
+    /* background-color: #888;
+    min-width: 100px; */
+    
+}
+table .status {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+}
+table .action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.action i{
+    margin: 0 5px;
+    cursor: pointer;
+    color: rgb(238, 214, 137)
+    ;
+}
+.tab{
+    border-bottom: 1px solid #888;
+}
+button.tablinks.active{
+    border: 1px solid #888;
+    color: #888;
+    border-bottom: none;
+    box-shadow: white 0 2px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+}
+button.tablinks:hover{
+    color: #888;
+}
+
+button.tablinks:focus{
+    outline: none;
+}
+button.tablinks{
+    padding: 6px 45px;
+    border: none;
+    background-color: white;
+
+    
+}
+
+.tabcontent table tr{
+    border: 1px solid #888;
+    }
+
+
+@media (max-width: 758px){
+    .tabcontent{
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+}

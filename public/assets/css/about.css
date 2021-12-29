@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    place-items: center;
+    background: #eee
+}
+
+.card {
+    border-radius: 20px;
+    background: #921c1c;
+    border: none
+}
+
+.card img {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    border: 2px solid #97aebb;
+}
+
+.neo-button {
+    width: 40px;
+    height: 40px;
+    outline: 0 !important;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: 20px 20px 60px #cacaca, -20px -20px 60px #ffffff
+}
+.fa:hover{
+    color: rgba(38, 86, 131, 0.1);
+}
+.neo-button:active {
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: inset 20px 20px 60px #cacaca, inset -20px -20px 60px #ffffff
+}
+
+.fa-facebook {
+    color: #3b5998
+}
+
+.fa-instagram {
+    color: #b30888
+}
+
+.fa-google {
+    color: #dc4e41
+}
+
+.fa-link {
+    color: #0bad67
+}
+
+.fa-twitter {
+    color: #55acee
+}
+.h3, h3 {
+    font-size: 1.5rem !important;
+}
+.row{
+    margin-bottom: 1.5rem !important;
+}
+.mt-4 ul li {
+    margin: 6px !important;
+}
+.mt-4 ul{
+    padding-left: 0rem !important;
+}
+.py-4{
+    border-radius: 15px !important;
+}
+.py-4:hover{
+    background-color:#f2efef;
+}

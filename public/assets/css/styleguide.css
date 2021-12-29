@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.main {
+    display: flex;
+}
+.mid{
+  text-align: center;
+}
+.tab {
+  float: left;
+  margin-right: 12px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 271px;
+}
+
+ul li{
+  list-style: none;
+  text-align: center;
+}
+
+.group-web ul li{
+
+}
+.project-web ul li{
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 8px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #1e4356;
+  color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding: 12px 42px;
+  border: 1px solid #ccc;
+  width: 80%;
+  height: 500px;
+}
+
+.container-content {
+    display: flex;
+    width: 100%;
+}
+
+.group-web {
+    flex: 1;
+}
+
+.project-web {
+    flex: 1;
+}
+.container-content ul li{
+  padding: 20px 30%;
+  margin: 10px 10px !important;
+  
+}
+.first {
+  color: #fff;
+  background: #1e4356;
+}
+.middle{
+  /* color: #fff; */
+  background: #ddd; 
+  border: 1px solid #ddd !important ;
+}
+.last{
+  color: #fff;
+  background: #a23f25;
+}
+
+.header-style-guider {
+    font-size: 24px;
+    color: #1e4356;
+    font-weight:600;
+}
+
+.children {
+    font-size: 18px;
+    margin-top: 16px;
+    color: #1e4356;
+}
+
+.container-color {
+    display: flex;
+}
+
+.block-color {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-top: 12px;
+    margin-right: 12px;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.green {
+    background-color: #4fa6d5;
+}
+
+.gray {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.black {
+    background-color: #1e4356;
+}
+.back{
+  background-color: #f3f8fa;
+  color: black;
+}
+.orgrance{
+  background-color: #a23f25;
+}
+.rgba{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+.xam{
+  background-color: #f5f4f0;
+  color: black;
+}
+.container-button {
+    display: flex;
+}
+.color-btn{
+ background: #b7472a;
+ color: #fff;
+ border-radius: 5px;
+}
+.view-project{
+  padding: 5px 30px;
+}
+.search-project{
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.btn1 {
+    background-color: #4fa6d5;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    color: #fff;
+    margin-right: 12px;
+}
+
+.btn2 {
+    background-color: #68A4C4;
+    border: none;
+    border-radius: 50px;
+    padding: 6px 24px;
+    color: #fff;
+    margin-right: 12px;
+}
+
+.container-icon i {
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+/* Style the tab */
+.tab-childrent {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab-childrent button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab-childrent button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab-childrent button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent-childrent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  .style-guide__img {
+    display: flex;
+    margin-top: 12px;
+    margin-right: 12px;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #ccc;
+  }
+
+  .tabcontent-img {
+      height: 800px;
+  }
+
+  .img-avatar {
+    width: 100px;
+    height: 100px;
+  }
